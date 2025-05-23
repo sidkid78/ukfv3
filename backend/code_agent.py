@@ -36,7 +36,7 @@ from concurrent.futures import ThreadPoolExecutor
 import json
 from dotenv import load_dotenv
 from pydantic import BaseModel, ConfigDict
-from azure_config import setup_azure_openai, azure_config
+from backend.azure_config import setup_azure_openai, azure_config
 from agents import FunctionTool
 from pathlib import Path # Import Path
 

@@ -5,9 +5,9 @@ import asyncio
 import json
 
 # Core simulation imports
-from backend.core.simulation_engine import SimulationEngine, LayerResult
-from backend.core.layers import (
-    Layer1, Layer2, Layer3, Layer4, Layer5,
+from core.simulation_engine import SimulationEngine, LayerResult
+from core.layers import (
+    Layer1, Layer2, EnhancedLayer3, Layer4, Layer5,
     Layer6, Layer7, Layer8, Layer9, Layer10
 )
 
@@ -70,7 +70,7 @@ async def run_simulation_endpoint(request: Request):
     # Register all layers
     engine.register_layer(Layer1())
     engine.register_layer(Layer2())
-    engine.register_layer(Layer3())
+    engine.register_layer(EnhancedLayer3())
     engine.register_layer(Layer4())
     engine.register_layer(Layer5())
     engine.register_layer(Layer6())
@@ -123,4 +123,4 @@ if __name__ == "__main__":
     import uvicorn
     # Ensure backend.services.knowledge_expert_service is available if used by layers
     # Example: from backend.services import knowledge_expert_service 
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+    uvicorn.run(app, host="0.0.0.0", port=8000)

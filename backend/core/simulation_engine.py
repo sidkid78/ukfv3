@@ -6,18 +6,18 @@ confidence tracking, and audit logging.
 """
 from typing import List, Dict, Any, Optional, AsyncGenerator
 from dataclasses import dataclass
-from backend.core.layers.base import BaseLayer
+from core.layers.base import BaseLayer
 import logging
 import hashlib
 import json
 from datetime import datetime
 import uuid
-from backend.core.layers import (
-    Layer1, Layer2, Layer3, Layer4, Layer5,
+from core.layers import (
+    Layer1, Layer2, EnhancedLayer3, Layer4, Layer5,
     Layer6, Layer7, Layer8, Layer9, Layer10
 )
 from pathlib import Path
-from backend.services.knowledge_expert_service import KnowledgeExpertService
+# from services.knowledge_expert_service import KnowledgeExpertService
 import time
 import psutil
 LOG_DIR = Path("logs")
@@ -140,12 +140,13 @@ class SimulationEngine:
     async def _escalate_to_knowledge_expert(self, result):
         """Example escalation implementation"""
         # Ensure KnowledgeExpertService.consult is async if it involves I/O
-        expert_response = await KnowledgeExpertService.consult(
-            context=self.current_context,
-            confidence=result.confidence
-        )
-        self.current_context.update(expert_response)
-    
+        # expert_response = await KnowledgeExpertService.consult(
+        #     context=self.current_context,
+        #     confidence=result.confidence
+        # )
+        # self.current_context.update(expert_response)
+        logger.warning(f"KnowledgeExpertService not implemented. Escalation from layer {result.layer_id} did not perform any action.")
+
     def _sanitize_context(self, context: Dict) -> Dict:
         """Create a sanitized version of the context for logging"""
         # Simplified sanitization
