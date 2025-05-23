@@ -1,0 +1,48 @@
+2025-05-22 07:39:58,792 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:39:58,808 - __main__ - INFO - Listed files with pattern: instruct/*
+2025-05-22 07:40:00,090 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:00,094 - __main__ - INFO - Successfully read file: instruct/layers.md
+2025-05-22 07:40:08,925 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:08,928 - __main__ - INFO - Listed files with pattern: *
+2025-05-22 07:40:12,823 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:12,824 - __main__ - INFO - Listed files with pattern: backend/*
+2025-05-22 07:40:16,925 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:16,928 - __main__ - INFO - Listed files with pattern: frontend/*
+2025-05-22 07:40:22,720 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:22,722 - __main__ - INFO - Listed files with pattern: frontend/src/*
+2025-05-22 07:40:26,388 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:26,390 - __main__ - INFO - Listed files with pattern: frontend/src/app/*
+2025-05-22 07:40:30,598 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:30,601 - __main__ - INFO - Listed files with pattern: main.py
+2025-05-22 07:40:32,527 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:32,532 - __main__ - INFO - Listed files with pattern: backend/core/*
+2025-05-22 07:40:35,002 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 07:40:35,004 - __main__ - INFO - Listed files with pattern: backend/api/*
+2025-05-22 08:47:26,448 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 08:47:26,453 - __main__ - INFO - Successfully created directory (or ensured it exists): C:\Users\sidki\source\repos\ukfv3\backend/app/simulation
+2025-05-22 08:47:26,459 - __main__ - INFO - Successfully created directory (or ensured it exists): C:\Users\sidki\source\repos\ukfv3\backend/app/graph
+2025-05-22 08:47:26,460 - __main__ - INFO - Successfully edited/created file: backend/app/__init__.py
+2025-05-22 08:47:26,460 - __main__ - INFO - Successfully edited/created file: backend/app/simulation/__init__.py
+2025-05-22 08:47:26,461 - __main__ - INFO - Successfully edited/created file: backend/app/graph/__init__.py
+2025-05-22 08:47:26,461 - __main__ - INFO - Successfully edited/created file: backend/app/main.py
+2025-05-22 08:47:29,950 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 08:47:29,951 - __main__ - INFO - Successfully edited/created file: backend/app/simulation/engine.py
+2025-05-22 08:47:29,951 - __main__ - INFO - Successfully edited/created file: backend/app/graph/knowledge_graph.py
+2025-05-22 08:47:31,311 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 08:49:52,086 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 08:49:52,095 - __main__ - INFO - Successfully created directory (or ensured it exists): C:\Users\sidki\source\repos\ukfv3\components
+2025-05-22 08:49:52,096 - __main__ - INFO - Successfully created directory (or ensured it exists): C:\Users\sidki\source\repos\ukfv3\store
+2025-05-22 08:49:52,097 - __main__ - INFO - Successfully edited/created file: components/SimulationUI.js
+2025-05-22 08:49:52,097 - __main__ - INFO - Successfully edited/created file: store/useSimulationStore.js
+2025-05-22 08:49:54,257 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 08:56:41,761 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 08:56:41,766 - __main__ - INFO - Listed files with pattern: frontend/src/**
+2025-05-22 08:56:42,732 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 08:56:42,734 - __main__ - INFO - Listed files with pattern: frontend/src/components/*
+2025-05-22 08:56:42,735 - __main__ - INFO - Listed files with pattern: frontend/src/store/*
+2025-05-22 08:56:42,735 - __main__ - INFO - Listed files with pattern: frontend/src/app/*
+2025-05-22 08:56:50,554 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
+2025-05-22 08:56:50,559 - __main__ - INFO - Successfully edited/created file: frontend/src/components/LayersProvider.tsx
+2025-05-22 08:56:50,559 - __main__ - INFO - Successfully edited/created file: frontend/src/store/agentEngine.ts
+2025-05-22 08:56:50,562 - __main__ - INFO - Successfully edited/created file: frontend/src/store/pluginLoader.ts
+2025-05-22 08:56:53,492 - httpx - INFO - HTTP Request: POST https://kevin-m8961u8a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-03-01-preview "HTTP/1.1 200 OK"
