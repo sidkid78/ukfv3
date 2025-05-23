@@ -1,8 +1,8 @@
 """
 Tests for the simulation engine core functionality.
 """
+from backend.core.simulation_engine import SimulationEngine
 import pytest
-from core.simulation_engine import SimulationEngine
 
 class TestSimulationEngine:
     """Test suite for SimulationEngine class."""

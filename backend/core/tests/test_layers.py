@@ -1,8 +1,8 @@
 """
 Tests for layer implementations and base layer functionality.
 """
+from backend.core.layers import BaseLayer, Layer1, Layer2, Layer3
 import pytest
-from ..layers import BaseLayer, Layer1, Layer2, Layer3
 
 class TestBaseLayer:
     """Test suite for BaseLayer functionality."""
@@ -55,7 +55,7 @@ class TestLayer2:
         result = await layer.execute(context)
         
         assert "graph_initialized" in result
-        assert "knowledge_ops" in result
+        assert "entities" in result and "facts" in result
         
     @pytest.mark.asyncio
     async def test_execute_missing_prerequisite(self):
